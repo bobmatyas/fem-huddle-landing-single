@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url('images/bg-mobile.svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top right;
+  background-color: hsl(257, 40%, 49%);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.tag-line {
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  font-weight: 700;
+}
+
+.intro-description {
+  color: #fff;
+}
+
+.button-registration {
+  border-radius: 20px;
+  background-color: #fff;
+  color: hsl(257, 40%, 49%);
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 10px 40px;
+}
+
+/* attribution imported from starter */
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
