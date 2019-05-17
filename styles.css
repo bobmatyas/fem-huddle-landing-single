@@ -30,6 +30,10 @@ body {
   height: auto;
 }
 
+.welcome-holder {
+  text-align: center;
+}
+
 .tag-line {
   font-family: 'Poppins', sans-serif;
   color: #fff;
@@ -77,9 +81,13 @@ body {
   display: inline-block;
   width: 42px;
   height: 42px;
-  border: 2px solid #fff;
+  border: 1px solid #fff;
   border-radius: 42px;
   margin: 5px;
+}
+
+.icon-list li:hover {
+  cursor: pointer;
 }
 
 .social-icon {
@@ -96,3 +104,67 @@ body {
 
 .attribution { font-size: 11px; text-align: center; color: #fff; margin: 50px; }
 .attribution a { color: #fff; }
+
+
+@media screen and (min-width: 1000px) {
+
+  body {
+    background-image: url('images/bg-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom left;
+  }
+
+  .main {
+    display: flex;
+    padding: 2% 5%;
+  }
+
+  .header {
+    padding: 2% 5%;
+  }
+  
+  .mockup-container {
+    width: 55%;
+  }
+
+  .welcome-holder {
+    padding: 2%;
+    text-align: left;
+    width: 45%;
+    margin-left: 45px;
+  }
+
+  .tag-line {
+    font-size: 2.8rem;
+  }
+
+  .intro-description {
+    font-size: 1.8rem;
+    line-height: 3.1rem;
+  }
+
+  .registration-holder {
+    text-align: left;
+  }
+
+  .icon-holder {
+    text-align: right;
+    margin-top: 150px;
+  }
+
+  .social-icon {
+    margin: 9px 9px 9px 0;
+  }
+
+  .icon-list {
+    text-align: right;
+  }
+
+  .button-registration {
+    width: 30%;
+    min-width: 150px;
+  }
+
+
+}
