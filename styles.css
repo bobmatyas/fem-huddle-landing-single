@@ -66,7 +66,7 @@ body {
   margin: 0 auto;
   box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.3);
   cursor: pointer;
-  border: 1px solid #674bb1;
+  border: none;
   width: 70%;
 }
 
@@ -150,11 +150,11 @@ body {
 
   .icon-holder {
     text-align: right;
-    margin-top: 150px;
+    margin-top: 100px;
   }
 
   .social-icon {
-    margin: 9px 9px 9px 0;
+    margin: 10px 10px 10px 0;
   }
 
   .icon-list {
