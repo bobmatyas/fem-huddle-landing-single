@@ -17,26 +17,82 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+.header {
+  padding: 5% 10%;
+}
+
+.main {
+  padding: 2% 10%;
+}
+
+.scalable {
+  width: 100%;
+  height: auto;
+}
+
 .tag-line {
   font-family: 'Poppins', sans-serif;
   color: #fff;
   font-weight: 700;
+  font-size: 2.4rem;
 }
 
 .intro-description {
   color: #fff;
+  font-size: 1.9rem;
+  line-height: 2.9rem;
+}
+
+.center {
+  text-align: center;
+}
+
+.registration-holder {
+  text-align: center;
+  margin: 50px 0;
 }
 
 .button-registration {
-  border-radius: 20px;
+  border-radius: 50px;
   background-color: #fff;
   color: hsl(257, 40%, 49%);
-  font-size: 1.6rem;
-  font-weight: bold;
-  padding: 10px 40px;
+  font-size: 1.7rem;
+  font-weight: 400;
+  padding: 15px 40px;
+  margin: 0 auto;
+  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  border: 1px solid #674bb1;
+  width: 70%;
 }
+
+.icon-list {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.icon-list li {
+  display: inline-block;
+  width: 42px;
+  height: 42px;
+  border: 2px solid #fff;
+  border-radius: 42px;
+  margin: 5px;
+}
+
+.social-icon {
+  margin: 9px 0 0 0;
+  filter: invert(1);
+}
+
+.social-icon path {
+  fill: #fff;
+}
+
 
 /* attribution imported from starter */
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution { font-size: 11px; text-align: center; color: #fff; margin: 50px; }
+.attribution a { color: #fff; }
